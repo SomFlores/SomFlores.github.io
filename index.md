@@ -6,7 +6,7 @@
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
              <style type="text/css"></style>
              <title>SOM FLORES</title>
-            <meta name="description" content="a text">
+            <meta name="description" content="Som Flores is Lêdo's Homepage">
             <meta name="keywords" content="insertkeywords">
             <link rel="stylesheet" type="text/css" href="css/style.css">
         </head>
