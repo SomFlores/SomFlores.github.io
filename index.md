@@ -11,19 +11,31 @@
             <link rel="stylesheet" type="text/css" href="css/style.css">
         </head>
 <body>
+  
 
 <div class="wrapper">
         <header class="header"><div class="flex-container-header" class="center">
             <div class="flex-item"><a href="index-1.html" alt="home">index</a></div>
             <div class="flex-item"><a href="bio.html" alt="about">bio</a></div>
-            <div class="flex-item"><a href="art.html" alt="art">art</a></div>         
-            </div></header></body>
-<article class="main">
-<div class="flex-item">    <div class="centered-text" >SOM FLORES</div>
-<img src="img/indexgif.gif" width="100px" class="center"></a>
-</p></div>
-</article>
-<footer class="footer">
+            <div class="flex-item"><a href="art.html" alt="art">art</a></div>
+           
+            
+        </div>
+        </header></body>
+
+
+        <article class="main">
+                    <div class="flex-item">    <div class="centered-text" >SOM FLORES</div>
+                        <img src="img/indexgif.gif" width="100px" class="center"></a>
+           
+                  
+                   
+                
+                </p></div>
+         </article>
+
+
+        <footer class="footer">
                 <div class="flex-container-footer">
                 <a href="https://loudvolumecomputer.bandcamp.com/" alt="https://loudvolumecomputer.bandcamp.com" target="_blank"><img src="icon/bandcamp02.gif"></a>
                 <a href="https://www.instagram.com/loudvolume.computer/" alt="https://www.instagram.com/loudvolume.computer/" target="_blank"><img src="icon/insta01.gif"></a>
@@ -31,7 +43,10 @@
                 <a href="https://soundcloud.com/rizumirai" alt="https://soundcloud.com/rizumirai" target="_blank"><img src="icon/soundcloud03.gif"></a>
                 <a href="https://www.linkedin.com/in/rita-ledo/" alt="https://www.linkedin.com/in/ledo/" target="_blank"><img src="icon/linkedin01.gif"></a></footer>
                 </div>
- </div>          
+
+      </div>
+
+          
           
 </html>
 </body></html>
