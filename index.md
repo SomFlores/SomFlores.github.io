@@ -11,7 +11,6 @@
             <link rel="stylesheet" type="text/css" href="css/style.css">
         </head>
 <body>
-  
 
 <div class="wrapper">
         <header class="header"><div class="flex-container-header" class="center">
@@ -32,9 +31,7 @@
                 <a href="https://soundcloud.com/rizumirai" alt="https://soundcloud.com/rizumirai" target="_blank"><img src="icon/soundcloud03.gif"></a>
                 <a href="https://www.linkedin.com/in/rita-ledo/" alt="https://www.linkedin.com/in/ledo/" target="_blank"><img src="icon/linkedin01.gif"></a></footer>
                 </div>
- </div>
-
-          
+ </div>          
           
 </html>
 </body></html>
