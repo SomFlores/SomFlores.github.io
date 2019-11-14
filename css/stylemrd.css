@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
+    
+}
+
+body{    
+    background: #5BFFBE;
+    background: -webkit-linear-gradient(bottom left, #5BFFBE, #C75CFF);
+    background: -moz-linear-gradient(bottom left, #5BFFBE,  #C75CFF);
+    background: linear-gradient(bottom left, #5BFFBE,  #C75CFF);
+    background-attachment: fixed;
+    color: #FF69B4;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size:14px;
+    font-weight:400;
+    cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
+    
+
+}
+
+
+
+
+footer{
+    padding: 0px;     
+    padding-left: 10px;
+    /*font-size: 16px;
+    text-align: left;*/
+    color: Orchid;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;    
+    width: 100%;      
+    background-color: rgba(158, 111, 197, 0.2);  
+    font-variant: small-caps;  
+    display: inline-flex;   
+    justify-content: space-between 
+   
+}
+
+.footer-text{
+    flex:1;
+    order:1;
+    flex-basis: 25%;    
+    
+}
+
+.footer-icons{
+    flex:2;
+    order:2;    
+    flex-basis: 25%;    
+    flex-wrap:wrap;
+
+}
+
+footer img{ 
+   padding: 5px 10px;    
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+footer a:hover{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+footer a{
+    color: aquamarine;
+    font-variant: small-caps;
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+footer a:active{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+footer a:visited{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+footer img:hover{
+    -webkit-filter: hue-rotate(100deg);
+    filter: hue-rotate(100deg);
+    
+    
+}
+
+a{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+a:hover{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+}
+
+
+
+a:active{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+
+}
+
+a:visited{
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+
+}
+
+
+
+
+.rainbow {     
+    height: 2px;
+    border-width: 0px;
+    background: -moz-linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+    background: -webkit-linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red); 
+    background: -webkit-linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red); 
+    background: -o-linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+    background: -ms-linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+    background: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red); 
+    margin:5%;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+
+.headermenu{    
+    color: hotpink;  
+    text-align: center;    
+    height: 45px;  
+    width: 100%%;
+    font-size: 1.3em; 
+    text-shadow: 10px 5px Turquoise;
+    position: relative;
+        
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: auto;
+    margin-bottom: auto;
+    word-spacing: 300%;
+    padding: 10px;
+    background-color: rgba(158, 111, 197, 0.2);
+}
+    
+
+.headermenu a{
+    color: hotpink;
+    text-shadow: 10px 5px Turquoise;
+    position: relative;    
+    font-size:1.3em;
+    text-decoration:none;
+    margin: 0.5em;     
+}
+.headermenu a:active{
+    color: hotpink;
+    text-shadow: 10px 5px Turquoise;
+    position: relative;
+    margin: 0.5em;
+    padding: 0;  
+    font-size: 1.3em;
+    text-decoration:none;
+
+}
+.headermenu a:hover{
+ color: Orchid;
+    text-shadow: 10px 5px Turquoise;
+    position: relative;    
+    font-size: 1.3em;
+    text-decoration:none;
+
+}
+
+.container{    
+    display:flex; 
+    
+        
+}
+.box-1{
+    flex:1;
+    order:1;
+    width: 80%;
+
+    
+}
+
+.box-1 img{       
+    margin-top: 2em; 
+}
+
+.box-2{
+    flex:2;
+    order:2;
+    align-items:flex-start;
+    width: 20%;
+    
+    
+
+}
+.box-2 img{         
+    margin-top: 2em;   
+    
+}
+.box-2 img:hover{        
+    
+    margin-top: 2em;    
+    -webkit-filter: hue-rotate(220deg);
+    filter: hue-rotate(220deg);
+}
+
+                                
