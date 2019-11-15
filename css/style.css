@@ -91,7 +91,7 @@ h2{
 }
 
 h3 {
-    color: #00ff71;
+    color: #c6e3ff;
     padding: 0%;  
     padding-top: 1em;
     padding-bottom: 0.5em;
@@ -219,11 +219,13 @@ width: 50%;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  color: #c6e3ff;
   
   -webkit-flex-flow: row wrap;
   justify-content: left;
   outline-width: thin;
   outline-style: dotted;
+  outline-color: #390071;
   border-color: #00ff71;
 
 }
@@ -235,11 +237,13 @@ button.accordion {
     border: none;
     text-align: center;
     padding: 15px 20px;
-    color:  	#c6e3ff;
+    color:  	#00ff71;
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
     outline-style: double;
     outline-width: thin;
-    outline-color:  #c6e3ff; 
+    outline-color:  #00ff71;
+    font-variant: small-caps;
+    letter-spacing: 7px;
   );
   }
   
@@ -253,12 +257,13 @@ button.accordion {
   
   button.accordion:hover{
     background-color: #aa3939;
-    color: #c6e3ff;
+    color: #00ff71;
   }
    
   button.accordion.is-open {
-    background-color: #1c1c39;
-    color: #c6e3ff;
+    background-color: #390071;
+    color: #00ff71;
+    font-variant: small-caps;
   }
   
   .accordion-content {
@@ -269,7 +274,7 @@ button.accordion {
     transition: max-height 0.2s ease-in-out;
     outline-style: double;
     outline-width: thin;
-    outline-color:  #c6e3ff;
+    outline-color:  #00ff71;
  
   }
 
