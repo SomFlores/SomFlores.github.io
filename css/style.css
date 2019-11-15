@@ -9,9 +9,9 @@ body{
     background-attachment: fixed;
     color: #00ff71;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight:normal; 
-    line-height: 1.2em;
+    line-height: 1.4em;
     font cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
 }
 
@@ -31,9 +31,6 @@ br {
 }
     
   }
-
-
-
 
 .square {
     max-width: 100px; 
@@ -109,15 +106,16 @@ h3 {
   left: 50%;
   font-size: 1em;
   transform: translate(-50%, -50%);  
-  font-family: fantasy;
+  font-family: monospace;
   letter-spacing: 0.6em;
-  ;
+  font-weight: bolder;
 }
 
 .centered-text:hover{
   color: #00ff71;
-  font-family: fantasy;
+  font-family: monospace;
   font-size: 1em;
+  font-weight: bolder;
 }
 
 
@@ -131,11 +129,11 @@ display: flex;
 flex-flow: row wrap;
 text-align: center;
 margin-left: 10%;
-margin-right:10%;
+margin-right: 10%;
 }
 
 .wrapper > * {
-padding: 10px;
+padding: 1%;
 flex: 1 100%;
 
 }
@@ -162,7 +160,6 @@ outline-color: #390071;
 text-align: left;
 background-color: #1c1c39;
 padding: 1em;
-text-align: justify;
 
 outline-style: double;
 outline-color: #390071; 
