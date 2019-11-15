@@ -104,19 +104,20 @@ h3 {
 }
 .centered-text {
   color: #c6e3ff;
-  position: absolute;
-  top: 40%;
+  position: relative;
+  top: 0;
   left: 50%;
   font-size: 1em;
-  transform: translate(-50%, -50%);
-  
+  transform: translate(-50%, -50%);  
   font-family: fantasy;
+  letter-spacing: 0.6em;
   ;
 }
 
 .centered-text:hover{
   color: #00ff71;
   font-family: fantasy;
+  font-size: 1em;
 }
 
 
@@ -203,7 +204,8 @@ padding-right: 10%;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
+width: auto;
+max-width: 500px;
 }
 
 /*ACCORDION*/
