@@ -13,8 +13,31 @@ body{
     font-weight:normal; 
     line-height: 1.5em;
     font cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
+    overflow-y: scroll; 
+}
+/*SCROLLBAR*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1c1c39;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1c1c39;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #390071;
+}
+
+/*BASICS*/
 p {   
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -70,11 +93,12 @@ a:visited{
 h1{
     color:#aa3939;
     padding: 0;
+    padding-right: 5em;
     padding-bottom: 0.5em;    
     letter-spacing: 0; 
     font-variant: small-caps; 
     font-size: 2.5em;
-    text-align: left;   
+    text-align: left; 
 }
 
 h2{
@@ -128,12 +152,12 @@ h3 {
 display: flex;  
 flex-flow: row wrap;
 text-align: center;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 7%;
+margin-right: 7%;
 }
 
 .wrapper > * {
-padding: 1%;
+padding: 15px;
 flex: 1 100%;
 
 }
