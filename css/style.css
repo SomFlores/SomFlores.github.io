@@ -152,8 +152,8 @@ h3 {
 display: flex;  
 flex-flow: row wrap;
 text-align: center;
-margin-left: 7%;
-margin-right: 7%;
+margin-left: 15%;
+margin-right: 15%;
 }
 
 .wrapper > * {
