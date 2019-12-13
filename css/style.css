@@ -154,6 +154,7 @@ flex-flow: row wrap;
 text-align: center;
 margin-left: 15%;
 margin-right: 15%;
+align-content: center;
 }
 
 .wrapper > * {
