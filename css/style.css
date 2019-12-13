@@ -14,7 +14,9 @@ body{
     line-height: 1.5em;
     font cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
     overflow-y: scroll; 
-    overflow-x: hidden;
+    overflow-x: visible;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 /*SCROLLBAR*/
 
@@ -186,7 +188,6 @@ outline-color: #390071;
 text-align: left;
 background-color: #1c1c39;
 padding: 1em;
-
 outline-style: double;
 outline-color: #390071; 
 }
@@ -205,6 +206,21 @@ outline-color: #390071;
 .aside-1 a{
     color: #00ff71;
 }
+@media screen and (max-width: 599px) {
+.wrapper {padding: 0px; border: none; margin: 0px; outline: none;}
+.main {padding: 0px; margin: 0px; outline: none;}
+.aside-1 {padding: 0px; margin: 0px; border: 0px;}
+.body {padding: 0px; margin: 0px; outline: none;}
+.flex-container {padding: 0px; margin: 0px; border: 0px; outline: none;}
+.header {padding: 0px; margin: 0px; border: 0px; outline: none;}
+.footer {padding: 0px; margin: 0px; border:0 px; outline: none;}
+.flex-item{ padding: 0px; margin: 0 px; outline: none;}
+.h1 {padding: 0px; }
+.flex-container-content { padding: 0px; margin: 0px; border: 0px; outline: none;}
+
+}
+
+
 @media all and (min-width: 600px) {
 .aside { flex: 1 0 0; }
 }
@@ -216,12 +232,6 @@ outline-color: #390071;
 .footer  { order: 4; }
 }
 
-body {
-padding-top: 5%;
-padding-bottom: 5%;
-padding-left: 10%;
-padding-right: 10%;
-}
 
 .center {
 display: block;
@@ -358,6 +368,8 @@ button.accordion {
 
     outline-style: double;
     outline-color: #390071;
+
+    min-width: 100%;
   
   }
 
