@@ -73,20 +73,21 @@ br {
 .enfase{
     font-weight: bolder;
     text-decoration-style: wavy;
-}]
+}
+
 /*MAIN IFRAME*/
 
 
 /*ELEMENTS*/
 a{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
-}
+    }
 a:hover{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+    color: #aa3939;
 }
 a:active{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
-
 }
 
 a:visited{
