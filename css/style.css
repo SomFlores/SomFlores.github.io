@@ -42,21 +42,13 @@ body{
 
 /*BASICS*/
 p {   
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
+  position: relative;
   }
 
-br {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 0;
-  margin-right: 0;
+br { 
 }
     
-  }
+
 
 .square {
     max-width: 100px; 
@@ -81,6 +73,7 @@ br {
 /*ELEMENTS*/
 a{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+    color: #5858FA;
     }
 a:hover{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
@@ -123,10 +116,26 @@ h3 {
     font-variant: small-caps;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.2em;
+    position: relative;
 
-
-    
 }
+
+h4 {
+  color: #c6e3ff;
+  padding: 0%;  
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-variant: small-caps;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;    
+}
+
+hr{
+  color: #390071;
+  margin-bottom: 0.5em;
+  width: 100%;
+  }
+
 .centered-text {
   color: #c6e3ff;
   position: relative;
@@ -146,6 +155,12 @@ h3 {
   font-weight: bolder;
 }
 
+.text{
+  line-break: strict;
+  padding-top: 1em;
+  position: relative;
+
+}
 
 /*NAV BAR*/
 
@@ -243,8 +258,7 @@ width: 50%;
 /*ACCORDION*/
 
 .flex-container-content {
-  padding: 0;
-  margin:0;
+
   background-color: #1c1c39;
   list-style: none;   
   display: -webkit-box;
