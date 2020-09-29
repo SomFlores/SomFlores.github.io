@@ -125,6 +125,7 @@ h3 {
     position: relative;
     letter-spacing: 2px;
     line-height: 1.4em;
+    width: 100%;
 
     text-shadow: -1px -8px 5px #5858FA,-1px 1px 5px #00ff71,
                   1px -1px 5px #5858FA,1px 1px 5px #00ff71;
@@ -305,7 +306,6 @@ width: 50%;
   outline-style: dotted;
   outline-color: #390071;
   border-color: #00ff71;
-
 }
 
 
@@ -476,4 +476,37 @@ button.accordion {
     justify-content: space-evenly;
     outline-style: double;
     outline-color: #390071; 
+}
+/* GALLERY*/
+
+div.gallery {
+  margin-left: 1em;
+  margin-top: 0;
+  padding: 0em;
+  float:  unset;
+  align-items: center;
+  height: auto;
+
+}
+
+div.gallery:hover {
+}
+
+div.gallery img {
+  max-width: 260px;
+  height: auto;
+  padding-left: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border: black;
+  border-style: solid;
+  background-color: black;
+  border-radius: 0mm;
+}
+
+div.desc {
+  padding: 0px;
+  text-align: left;
 }
