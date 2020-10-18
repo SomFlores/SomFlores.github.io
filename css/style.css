@@ -43,9 +43,11 @@ body{
 /*BASICS*/
 p {   
   position: relative;
+  width: 100%;
   }
 
 br { 
+  position: relative;
 }
     
 
@@ -101,14 +103,15 @@ h1{
 h2{
   color: #c6e3ff;
   padding: 0%;  
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;  
   font-variant: small-caps;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.1em;
   position: relative;
   letter-spacing: 1px;
   line-height: 1.4em;  
+  
   text-decoration: underline;  
   width: 100%;
 
@@ -121,14 +124,52 @@ h3 {
     padding-bottom: 1em;
     font-variant: small-caps;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     position: relative;
     letter-spacing: 2px;
     line-height: 1.4em;
     width: 100%;
 
-    text-shadow: -1px -8px 5px #5858FA,-1px 1px 5px #00ff71,
-                  1px -1px 5px #5858FA,1px 1px 5px #00ff71;
+    text-shadow: -1px -5px 3px #5858FA,-1px 1px 3px #00ff71,
+                  1px -1px 3px #5858FA,1px 1px 3px #00ff71;
+
+}
+
+h3 a{
+  color: #c6e3ff;
+  padding: 0%;  
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  width: 100%;
+
+  text-shadow: -1px -5px 3px #5858FA,-1px 1px 3px #00ff71,
+                1px -1px 3px #5858FA,1px 1px 3px #00ff71;
+
+}
+
+h3 a:hover{
+  color: #c6e3ff;
+  padding: 0%;  
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-variant: small-caps;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 1.2em;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  width: 100%;  
+
+  text-shadow: -1px -5px 3px #ff008e,-1px 1px 3px #a7a705,
+                1px -1px 3px #ff008e,1px 1px 3px #a7a705;
 
 }
 
@@ -299,6 +340,8 @@ width: 50%;
   display: -webkit-flex;
   display: flex;
   color: #c6e3ff;
+
+  
   
   -webkit-flex-flow: row wrap;
   justify-content: left;
@@ -306,6 +349,16 @@ width: 50%;
   outline-style: dotted;
   outline-color: #390071;
   border-color: #00ff71;
+
+  color: #00ff71;
+}
+
+.flex-container-content a{
+
+text-align: left;
+background-color: #1c1c39;
+padding: 0;
+position: static;
 }
 
 
