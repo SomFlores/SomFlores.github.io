@@ -248,8 +248,8 @@ hr{
 display: flex;  
 flex-flow: row wrap;
 text-align: center;
-margin-left: 15%;
-margin-right: 15%;
+margin-left: 20%;
+margin-right: 20%;
 align-content: center;
 }
 
@@ -299,8 +299,8 @@ outline-color: #390071;
 .aside-1 a{
     color: #00ff71;
 }
-@media screen and (max-width: 599px) {
-.wrapper {padding: 0px; border: none; margin: 0px; outline: none;}
+@media screen and (max-width: 1250px) {
+.wrapper {padding: 0px; border: none; margin: 5px; outline: none;}
 .main {padding: 0px; margin: 0px; outline: none;}
 .aside-1 {padding: 0px; margin: 0px; border: 0px;}
 .body {padding: 0px; margin: 0px; outline: none;}
