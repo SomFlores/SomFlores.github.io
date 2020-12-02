@@ -69,6 +69,9 @@ br {
     text-decoration-style: wavy;
 }
 
+
+
+
 /*MAIN IFRAME*/
 
 
@@ -218,25 +221,39 @@ hr{
   position: relative;
   top: 0;
   left: 50%;
-  font-size: 1em;
+  font-size: 0.6em;
   transform: translate(-50%, -50%);  
   font-family: monospace;
   letter-spacing: 0.6em;
   font-weight: bolder;
 }
 
-.centered-text:hover{
+/*.centered-text:hover{
   color: #00ff71;
   font-family: monospace;
-  font-size: 1em;
+  font-size: 0.6em;
   font-weight: bolder;
-}
+  letter-spacing: 0em;
+}*/
 
 .text{
   line-break: strict;
   padding-top: 1em;
   position: relative;
 
+}
+
+.topped-text {
+  color: #ffffff;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  font-size: 1em;
+  transform: translate(-50%, -50%);  
+  font-family: monospace;
+  letter-spacing: 0.6em;
+  font-weight: bolder;
 }
 
 /*NAV BAR*/
@@ -310,6 +327,7 @@ outline-color: #390071;
 .flex-item{ padding: 0px; margin: 0 px; outline: none;}
 .h1 {padding: 0px; }
 .flex-container-content { padding: 0px; margin: 0px; border: 0px; outline: none;}
+.landing-center {padding: 0px; margin: 0px; outline: none;}
 }
 
 @media all and (min-width: 600px) {
@@ -330,6 +348,89 @@ margin-left: auto;
 margin-right: auto;
 width: 50%;
 }
+
+.landing-center {
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+font-size: 3em;
+list-style: none;   
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+text-align: center;
+}
+
+.landing-center img{
+min-width: 30px;
+padding: 0px;
+margin:0px;
+}
+
+.landing-center a{
+
+  color: yellow;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: normal; 
+  line-height: 1em;
+  font-stretch: wider;
+  font-variant: small-caps;
+  text-decoration: none;
+  letter-spacing: 5px;
+
+}
+
+.landing-center a:hover{
+
+  color: fuchsia;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.8em;  
+  font-variant: small-caps;
+  text-decoration: none;    
+  letter-spacing: 5px;
+}
+
+
+.land{  
+  color: yellow;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: normal; 
+  line-height: 1.8em;
+  font-variant: small-caps;
+}
+
+.land a:hover{
+  color: fuchsia;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: normal; 
+  line-height: 1.8em;  
+  font-variant: small-caps;
+}
+
+.land img{
+min-width: 30px;
+padding: 0px;
+}
+
+.landsmallfont {
+  color: yellow;
+  font-family: monospace;
+  font-size: 0.3em;
+  font-weight: normal; 
+  line-height: 1.4em;
+  font-variant: small-caps;
+  letter-spacing: 0.6em;
+}
+
 
 /*ACCORDION*/
 
