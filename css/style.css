@@ -46,9 +46,7 @@ p {
 
 br { 
   position: relative;
-}
-    
-
+} 
 
 .square {
     max-width: 100px; 
@@ -66,10 +64,6 @@ br {
     font-weight: bolder;
     text-decoration-style: wavy;
 }
-
-
-
-
 /*MAIN IFRAME*/
 
 
@@ -117,6 +111,42 @@ h2{
 
 }
 
+
+h2.yellow {
+  color:yellow;  
+  font-variant: small-caps;
+}
+
+h2.aqua {
+  color:aqua;  
+  font-variant: small-caps;
+
+}
+
+h2.lime {
+  color:lime;  
+  font-variant: small-caps;
+
+}
+
+h2.magenta {
+  color:magenta;
+  font-variant: small-caps;
+
+}
+
+h2.red {
+  color:red;  
+  font-variant: small-caps;
+
+}
+
+h2.blue {
+  color:white;  
+  font-variant: small-caps;
+
+}
+
 h3 {
   color:aqua;
   padding: 0%;  
@@ -130,6 +160,8 @@ h3 {
   letter-spacing: 2px;
   line-height: 1.4em;
   width: 100%;
+  
+  text-align: center;
 
 } 
   /*text-shadow: -1px -5px 3px fuchsia,-1px 1px 3px #a7a705,
@@ -149,7 +181,7 @@ h3 a{
   letter-spacing: 2px;
   line-height: 1.4em;
   width: 100%;
-
+  text-align: center;
 
 }
 
@@ -167,12 +199,42 @@ h3 a:hover{
   line-height: 1.4em;
   width: 100%;  
   
+  text-align: center;
+  
 }
+
+h3.yellow {
+  color:yellow;
+}
+
+h3.aqua {
+  color:aqua;
+
+}
+
+h3.lime {
+  color:lime;
+
+}
+
+h3.magenta {
+  color:magenta;
+
+}
+
+h3.red {
+  color:red;
+
+}
+
+h3.blue {
+  color:blue;
+
+}
+
+
 /*  text-shadow: -1px -8px 4px fuchsia,-1px 1px 4px #a7a705,
                 1px -1px 4px fuchsia,1px 1px 4px #a7a705;
-
-
-
 }*/
 
 .orange {
@@ -212,6 +274,31 @@ hr{
   size: 100%;
   
   }
+
+hr.red {
+  border: 2px dotted red;
+  outline: 
+}
+
+hr.yellow {
+  border: 2px dotted yellow;
+}
+
+hr.aqua {
+  border: 2px dotted aqua;
+}
+
+hr.lime {
+  border: 2px dotted lime;
+}
+
+hr.magenta {
+  border: 2px dotted magenta;
+}
+
+hr.blue {
+  border: 2px dotted blue
+}
 
 .centered-text {
   color: #ffffff;
@@ -320,7 +407,7 @@ outline-color: #231F20;
 }
 
 @media screen and (max-width: 1250px) {
-.wrapper {padding: 0px; border: none; margin: 5px; outline: none;}
+.wrapper {padding: 0px; border: none; margin: 0px; outline: none;}
 .main {padding: 0px; margin: 0px; outline: none;}
 .aside-1 {padding: 0px; margin: 0px; border: 0px;}
 .body {padding: 0px; margin: 0px; outline: none;}
@@ -330,6 +417,9 @@ outline-color: #231F20;
 .flex-item{ padding: 0px; margin: 0 px; outline: none;}
 .h1 {padding: 0px; }
 .flex-container-content { padding: 0px; margin: 0px; border: 0px; outline: none;}
+.accordion-content  {padding: 0px; margin: 0px; border: 0px; outline: none;}
+.center-acc {padding: 0px; margin: 0px; border: 0px; outline: none;}
+.container {padding: 0px; margin: 0px; border: 0px; outline: none;}
 }
 
 @media all and (min-width: 600px) {
@@ -338,6 +428,7 @@ outline-color: #231F20;
 .main    { flex: 4 0px; }
 .main    { order: 1; }
 .footer  { order: 4; }
+
 }
 
 /*@media all and (min-width: 800px) {
@@ -473,39 +564,77 @@ padding: 0;
 position: static;
 }
 
+.flex-container-content img{
+max-width: 100px;
+max-height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-bottom: 15px;
+}
 
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.center-acc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 200px;
+  padding-right: 1.5em;
+  padding-top: 18px;
+  float: inline-start;
+}
+  
+.accordion-content {
+  background-color: #050609;
+  padding: 1px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+  outline-style: double;
+  outline-width: thin;
+  outline-color:  #ffffff;
+
+}
+
+/* ACC. BUTTON. #1*/
 button.accordion {
     width: 100%;
-    background-color:  #050609;
+    background-color: #050609;
     border: none;
     text-align: center;
     padding: 15px 20px;
-    color:  	#ffffff;
+    color:  white;
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
     outline-style: double;
     outline-width: thin;
     outline-color:  #ffffff;
     font-variant: small-caps;
     letter-spacing: 7px;
-  );
   }
   
-  button.accordion:after {    
+  /*button.accordion:after {    
     
   }
   
   button.accordion.is-open:after {
     
   }
-  
+  */
   button.accordion:hover{
-    background-color:dimgray;
-    color: #ffffff;
+    background-color: yellow;
+    color: black;
   }
    
   button.accordion.is-open {
-    background-color: dimgrey;
-    color: #ffffff;
+    background-color: yellow;
+    color: black;
     font-variant: small-caps;
   }
   
@@ -521,22 +650,140 @@ button.accordion {
  
   }
 
-  .container {
-    width: 80%;
-    max-width: 600px;
-    margin: 50px auto;
+  /*ACC.BUTTON #2*/
+  button.accordion2 {
+    width: 100%;
+    background-color:   #050609;
+    border: none;
+    text-align: center;
+    padding: 15px 20px;
+    color:  white;
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+    outline-style: double;
+    outline-width: thin;
+    outline-color:  #ffffff;
+    font-variant: small-caps;
+    letter-spacing: 7px;
   }
+  
+  button.accordion2:hover{
+    background-color: aqua;
+    color:black;
+  }
+   
+  button.accordion2.is-open {
+    background-color:aqua;
+    color:black;
+    font-variant: small-caps;
+  }
+ 
+/*ACC.BUTTON #3*/
+button.accordion3 {
+  width: 100%;
+  background-color: #050609;
+  border: none;
+  text-align: center;
+  padding: 15px 20px;
+  color:  white;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+  outline-style: double;
+  outline-width: thin;
+  outline-color:  #ffffff;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+}
 
-  .center-acc {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 200px;
-    padding-right: 1.5em;
-    padding-top: 18px;
-    float: inline-start;
-    }
+button.accordion3:hover{
+  background-color:lime;
+  color: black;
+}
+ 
+button.accordion3.is-open {
+  background-color:lime;
+  color:black;
+  font-variant: small-caps;
+}
+
+/*ACC.BUTTON #4*/
+button.accordion4 {
+  width: 100%;
+  background-color: #050609;
+  border: none;
+  text-align: center;
+  padding: 15px 20px;
+  color:  white;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+  outline-style: double;
+  outline-width: thin;
+  outline-color:  #ffffff;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+}
+
+button.accordion4:hover{
+  background-color:magenta;
+  color: #ffffff;
+}
+ 
+button.accordion4.is-open {
+  background-color:magenta;
+  color: #ffffff;
+  font-variant: small-caps;
+}
+
+/*ACC.BUTTON #5*/
+button.accordion5 {
+  width: 100%;
+  background-color:  #050609;
+  border: none;
+  text-align: center;
+  padding: 15px 20px;
+  color:  	white;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+  outline-style: double;
+  outline-width: thin;
+  outline-color:  #ffffff;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+}
+
+button.accordion5:hover{
+  background-color: red;
+  color: #ffffff;
+}
+ 
+button.accordion5.is-open {
+  background-color: red;
+  color: #ffffff;
+  font-variant: small-caps;
+}
+
+/*ACC.BUTTON #6*/
+button.accordion6 {
+  width: 100%;
+  background-color: #050609;
+  border: none;
+  text-align: center;
+  padding: 15px 20px;
+  color:  white;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+  outline-style: double;
+  outline-width: thin;
+  outline-color:  #ffffff;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+}
+
+button.accordion6:hover{
+  background-color:blue;
+  color: #ffffff;
+}
+ 
+button.accordion6.is-open {
+  background-color: blue;
+  color: #ffffff;
+  font-variant: small-caps;
+}
   
 /*FLEXBOX*/
 @import "compass/css3";
