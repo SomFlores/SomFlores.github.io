@@ -74,7 +74,8 @@ a{
     }
 a:hover{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
-    color: fuchsia;
+    color:yellow ;
+    background: red;
 }
 a:active{
     cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
@@ -559,11 +560,14 @@ padding: 0px;
 .flex-container-content a{
 
 text-align: left;
-background-color: #050609;
+background-color: none;
 padding: 0;
 position: static;
 }
 
+.flex-container-content a:hover{
+  
+}
 .flex-container-content img{
 max-width: 100px;
 max-height: 100px;
@@ -893,16 +897,20 @@ button.accordion {
 .flex-item a{
     text-decoration: none;    
     color: #ffffff;
+    background:none;
 }
 
 .flex-item a:active {
     color: fuchsia;
     text-decoration: none;
+    background:none;
 }
 
 .flex-item a:visited{
+  
     color:fuchsia;
     text-decoration: none; 
+    background:none;
 }
 
 .flex-item a:hover{
@@ -910,6 +918,7 @@ button.accordion {
     font-variant: small-caps;
     text-decoration: none;
     letter-spacing: 5px;  
+    background:none;
     font-weight: bolder;
 }
 
