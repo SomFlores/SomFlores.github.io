@@ -954,6 +954,7 @@ padding-top: 4px;
 padding-bottom: 3px;
 text-align: center;
 outline: aqua double 4px;
+width: 100%;
 }
 a.emoticons{ 
   background: white;
