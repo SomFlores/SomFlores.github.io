@@ -1,344 +1,391 @@
 *{
-    margin:0;
-    padding:0;
-    cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
-    
+  margin:0;
+  padding:0;
+  cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
+  
 }
 body{    
-    background: dimgray;
-    background-attachment: fixed;
-    color: #ffffff;
-    font-family: "courier new", "Ebrima", "Yu Gothic", "trebuchet ms", "Microsoft Tai Le", "Nirmala UI", "Segoe UI Symbol",  "Corbel", "Gadugi", monospace, serif;
-    font-weight:normal;
-    font cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
-    overflow-y: scroll; 
-    overflow-x: visible;
-    padding-top: 1%;
-    padding-bottom: 1%;
+  background: dimgray;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: "courier new", "Ebrima", "Yu Gothic", "trebuchet ms", "Microsoft Tai Le", "Nirmala UI", "Segoe UI Symbol",  "Corbel", "Gadugi", monospace, serif;
+  font-weight:normal;
+  font cursor: url('http://downloads.totallyfreecursors.com/thumbnails/cat71.gif'),crosshair;
+  overflow-y: scroll; 
+  overflow-x: visible;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 /*SCROLLBAR*/
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #050609;
+background: #050609;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #050609;
+background: #050609;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #231F20;
+background: #231F20;
 }
 
 /*BASICS*/
 p {   
-  position: relative;
-  width: 100%;
-  }
+position: relative;
+width: 100%;
+}
 
 br { 
-  position: relative;
+position: relative;
 } 
 
 .square {
-    max-width: 100px; 
-    width: 100%;
-    height: auto;
+  max-width: 100px; 
+  width: 100%;
+  height: auto;
 }
 
 .center-img {
-    align-items: center;
-    align-items: center;
-    float:center;
+  align-items: center;
+  align-items: center;
+  float:center;
 }
 
 .enfase{
-    font-weight: bolder;
-    text-decoration-style: wavy;
+  font-weight: bolder;
+  text-decoration-style: wavy;
 }
 /*MAIN IFRAME*/
 
 
 /*ELEMENTS*/
 a{
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
-    color: fuchsia;
-    }
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+  color: fuchsia;
+  }
 a:hover{
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
-    color:yellow ;
-    background: red;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+  color:yellow ;
+  background: red;
 }
 a:active{
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
 }
 
 a:visited{
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;
 }
 
 h1{
-    color:yellow;
-    padding: 0;
-    padding-right: 3em;
-    padding-bottom: 0.5em;    
-    font-size: 26px;
-    text-align: left; 
-    font-variant: small-caps;
-    font-family: "Courier New", "Lucida Console", monospace;
-    letter-spacing: 5px;
+  color:yellow;
+  padding: 0;
+  padding-right: 0em;
+  padding-bottom: 0em;    
+  font-size: 26px;
+  text-align: left; 
+  font-variant: small-caps;
+  font-family: "Courier New", "Lucida Console", monospace;
+  letter-spacing: 5px;
+  width: 100%;
+}
+
+h1.titles {
+font-size: 26px;
+text-align: center;
+}
+
+h1.yellow {
+background-color: yellow;
+color: red;
+border: dotted yellow 3px;
+border-bottom: red solid 3px;
+}
+
+h1.white {
+background-color: white;
+color: red;
+
+border: dotted yellow 3px;
+border-bottom: lime solid 3px;
+}
+
+h1.magenta {
+background-color: magenta;
+color: white;
+
+border-top: solid  magenta 3px;
+border-bottom: aqua solid 5px;
+}
+
+h1.lime {
+background-color: blue;
+color: magenta;
+border: white outset 3px;
+border-bottom:aqua solid 5px;
+}
+
+h1.red {
+background-color: red;
+color: white;
+border-bottom:magenta solid 5px;
 }
 
 h2{
-  color:aqua;
-  font-size: 16px;
-  font-family: "Courier New", "Lucida Console", monospace;
-  padding: 0%;  
-  padding-top: 0.3em;
-  padding-bottom: 0em;  
-  position: relative;
-  line-height: 1.6em;  
-  
-  text-decoration: none;  
-  width: 100%;
+color:aqua;
+font-size: 16px;
+font-family: "Courier New", "Lucida Console", monospace;
+padding: 0%;  
+padding-top: 0.3em;
+padding-bottom: 0em;  
+position: relative;
+line-height: 1.6em;  
+
+text-decoration: none;  
+width: 100%;
 
 }
 
+h2.news {
+background-color:blue;
+color:white;
+font-variant: small-caps;
+}
 
 h2.yellow {
-  color:yellow;  
-  font-variant: small-caps;
+color:yellow;  
+font-variant: small-caps;
 }
 
 h2.aqua {
-  color:aqua;  
-  font-variant: small-caps;
+color:aqua;  
+font-variant: small-caps;
 
 }
 
 h2.lime {
-  color:lime;  
-  font-variant: small-caps;
+color:lime;  
+font-variant: small-caps;
 
 }
 
 h2.magenta {
-  color:magenta;
-  font-variant: small-caps;
+color:magenta;
+font-variant: small-caps;
 
 }
 
 h2.red {
-  color:red;  
-  font-variant: small-caps;
+color:red;  
+font-variant: small-caps;
 
 }
 
 h2.blue {
-  color:white;  
-  font-variant: small-caps;
+color:white;  
+font-variant: small-caps;
 
 }
 
 h3 {
-  color:aqua;
-  padding: 0%;  
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-variant: small-caps;
-  text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.2em;
-  position: relative;
-  letter-spacing: 2px;
-  line-height: 1.4em;
-  width: 100%;
-  
-  text-align: center;
+color:aqua;
+padding: 0%;  
+padding-top: 1em;
+padding-bottom: 1em;
+font-variant: small-caps;
+text-decoration: none;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.2em;
+position: relative;
+letter-spacing: 2px;
+line-height: 1.4em;
+width: 100%;
+
+text-align: center;
 
 } 
-  /*text-shadow: -1px -5px 3px fuchsia,-1px 1px 3px #a7a705,
-  1px -1px 3px fuchsia,1px 1px 3px #a7a705;
+/*text-shadow: -1px -5px 3px fuchsia,-1px 1px 3px #a7a705,
+1px -1px 3px fuchsia,1px 1px 3px #a7a705;
 }*/
 
 h3 a{
-  color:aqua;
-  padding: 0%;  
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-variant: small-caps;
-  text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.2em;
-  position: relative;
-  letter-spacing: 2px;
-  line-height: 1.4em;
-  width: 100%;
-  text-align: center;
+color:aqua;
+padding: 0%;  
+padding-top: 1em;
+padding-bottom: 1em;
+font-variant: small-caps;
+text-decoration: none;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.2em;
+position: relative;
+letter-spacing: 2px;
+line-height: 1.4em;
+width: 100%;
+text-align: center;
 
 }
 
 h3 a:hover{
-  color: fuchsia;
-  padding: 0%;  
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-variant: small-caps;
-  font-family: "Times New Roman", Times, serif;
-  text-decoration: none;
-  font-size: 1.2em;
-  position: relative;
-  letter-spacing: 2px;
-  line-height: 1.4em;
-  width: 100%;  
-  
-  text-align: center;
-  
+color: fuchsia;
+padding: 0%;  
+padding-top: 1em;
+padding-bottom: 1em;
+font-variant: small-caps;
+font-family: "Times New Roman", Times, serif;
+text-decoration: none;
+font-size: 1.2em;
+position: relative;
+letter-spacing: 2px;
+line-height: 1.4em;
+width: 100%;  
+
+text-align: center;
+
 }
 
 h3.yellow {
-  color:yellow;
+color:yellow;
 }
 
 h3.aqua {
-  color:aqua;
+color:aqua;
 
 }
 
 h3.lime {
-  color:lime;
+color:lime;
 
 }
 
 h3.magenta {
-  color:magenta;
+color:magenta;
 
 }
 
 h3.red {
-  color:red;
+color:red;
 
 }
 
 h3.blue {
-  color:blue;
+color:blue;
 
 }
 
 
 /*  text-shadow: -1px -8px 4px fuchsia,-1px 1px 4px #a7a705,
-                1px -1px 4px fuchsia,1px 1px 4px #a7a705;
+              1px -1px 4px fuchsia,1px 1px 4px #a7a705;
 }*/
 
 .orange {
-  color:#aa3939;
-  font-variant: small-caps;
+color:#aa3939;
+font-variant: small-caps;
 
 }
 
 /*.bitsmaller{
-  font-size: 2em;
-  width: 100%;
+font-size: 2em;
+width: 100%;
 
 }*/
 
 
 .green {
 
-  color:#ffffff;
+color:#ffffff;
 
 }
 
 h4 {
-  color: #ffffff;
-  padding: 0%;  
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-  font-variant: small-caps;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.1em;    
+color: #ffffff;
+padding: 0%;  
+padding-top: 1em;
+padding-bottom: 0.5em;
+font-variant: small-caps;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.1em;    
 }
 
 hr{
-  color:dimgray;
-  margin-bottom: 0.9em;
-  margin-top: 0.9em;
-  width: 100%;
-  size: 100%;
-  
-  }
+color:dimgray;
+margin-bottom: 0.9em;
+margin-top: 0.9em;
+width: 100%;
+size: 100%;
+
+}
 
 hr.red {
-  border: 2px dotted red;
-  outline: 
+border: 2px dotted red;
+outline: 
 }
 
 hr.yellow {
-  border: 2px dotted yellow;
+border: 2px dotted yellow;
 }
 
 hr.aqua {
-  border: 2px dotted aqua;
+border: 2px dotted aqua;
 }
 
 hr.lime {
-  border: 2px dotted lime;
+border: 2px dotted lime;
 }
 
 hr.magenta {
-  border: 2px dotted magenta;
+border: 2px dotted magenta;
 }
 
 hr.blue {
-  border: 2px dotted blue
+border: 2px dotted blue
 }
 
 .centered-text {
-  color: #ffffff;
-  position: relative;
-  top: 0;
-  left: 50%;
-  font-size: 12px;
-  transform: translate(-50%, -50%);  
-  font-family: monospace;
-  letter-spacing: 0.6em;
-  font-weight: bolder;
+color: #ffffff;
+position: relative;
+top: 0;
+left: 50%;
+font-size: 12px;
+transform: translate(-50%, -50%);  
+font-family: monospace;
+letter-spacing: 0.6em;
+font-weight: bolder;
 }
 
 /*.centered-text:hover{
-  color: #ffffff;
-  font-family: monospace;
-  font-size: 0.6em;
-  font-weight: bolder;
-  letter-spacing: 0em;
+color: #ffffff;
+font-family: monospace;
+font-size: 0.6em;
+font-weight: bolder;
+letter-spacing: 0em;
 }*/
 
 .text{
-  line-break: strict;
-  padding-top: 1em;
-  position: relative;
+line-break: strict;
+padding-top: 1em;
+position: relative;
 
 }
 
 .topped-text {
-  color: #ffffff;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  font-size: 1em;
-  transform: translate(-50%, -50%);  
-  font-family: monospace;
-  letter-spacing: 0.6em;
-  font-weight: bolder;
+color: #ffffff;
+position: relative;
+top: 0;
+bottom: 0;
+left: 50%;
+font-size: 1em;
+transform: translate(-50%, -50%);  
+font-family: monospace;
+letter-spacing: 0.6em;
+font-weight: bolder;
 }
 
 /*NAV BAR*/
@@ -404,7 +451,7 @@ outline-color: #231F20;
 }
 
 .aside-1 a{
-    color: #ffffff;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1250px) {
@@ -433,10 +480,10 @@ outline-color: #231F20;
 }
 
 /*@media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 2;} 
-  .main    { order: 1; }
-  .footer  { order: 4; }
+.main    { flex: 3 0px; }
+.aside-1 { order: 2;} 
+.main    { order: 1; }
+.footer  { order: 4; }
 }*/
 
 
@@ -471,47 +518,47 @@ margin:0px;
 
 .landing-center a{
 
-  color: yellow;
-  font-family: monospace;
-  font-size: 1em;
-  font-weight: normal; 
-  line-height: 1em;
-  font-stretch: wider;
-  font-variant: small-caps;
-  text-decoration: none;
-  letter-spacing: 0.1em;
+color: yellow;
+font-family: monospace;
+font-size: 1em;
+font-weight: normal; 
+line-height: 1em;
+font-stretch: wider;
+font-variant: small-caps;
+text-decoration: none;
+letter-spacing: 0.1em;
 
 }
 
 .landing-center a:hover{
 
-  color: fuchsia;
-  font-family: monospace;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 1.8em;  
-  font-variant: small-caps;
-  text-decoration: none;    
-  letter-spacing: 0.1em;
+color: fuchsia;
+font-family: monospace;
+font-size: 1em;
+font-weight: bold;
+line-height: 1.8em;  
+font-variant: small-caps;
+text-decoration: none;    
+letter-spacing: 0.1em;
 }
 
 
 .land{  
-  color: yellow;
-  font-family: monospace;
-  font-size: 1em;
-  font-weight: normal; 
-  line-height: 1.8em;
-  font-variant: small-caps;
+color: yellow;
+font-family: monospace;
+font-size: 1em;
+font-weight: normal; 
+line-height: 1.8em;
+font-variant: small-caps;
 }
 
 .land a:hover{
-  color: fuchsia;
-  font-family: monospace;
-  font-size: 1em;
-  font-weight: normal; 
-  line-height: 1.8em;  
-  font-variant: small-caps;
+color: fuchsia;
+font-family: monospace;
+font-size: 1em;
+font-weight: normal; 
+line-height: 1.8em;  
+font-variant: small-caps;
 }
 
 .land img{
@@ -520,13 +567,13 @@ padding: 0px;
 }
 
 .landsmallfont {
-  color: yellow;
-  font-family: monospace;
-  font-size: 0.3em;
-  font-weight: normal; 
-  line-height: 1.4em;
-  font-variant: small-caps;
-  letter-spacing: 0.6em;
+color: yellow;
+font-family: monospace;
+font-size: 0.3em;
+font-weight: normal; 
+line-height: 1.4em;
+font-variant: small-caps;
+letter-spacing: 0.6em;
 }
 
 
@@ -534,27 +581,27 @@ padding: 0px;
 
 .flex-container-content {
 
-  background-color: #050609;
-  list-style: none;   
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  color: #ffffff;
+background-color: #050609;
+list-style: none;   
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+color: #ffffff;
 
-  
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: left;
-  outline-width: thin;
-  outline-style: dotted;
-  outline-color: white;
-  border-color: #ffffff;
 
-  color: #ffffff;
-  padding: 0.5em;
-  margin-bottom: 0.5em;
+
+-webkit-flex-flow: row wrap;
+justify-content: left;
+outline-width: thin;
+outline-style: dotted;
+outline-color: white;
+border-color: #ffffff;
+
+color: #ffffff;
+padding: 0.5em;
+margin-bottom: 0.5em;
 }
 
 .flex-container-content a{
@@ -566,7 +613,7 @@ position: static;
 }
 
 .flex-container-content a:hover{
-  
+
 }
 .flex-container-content img{
 max-width: 100px;
@@ -579,22 +626,69 @@ padding-bottom: 15px;
 }
 
 .container {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
+width: 80%;
+max-width: 600px;
+margin: 50px auto;
 }
 
 .center-acc {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 200px;
-  padding-right: 1.5em;
-  padding-top: 18px;
-  float: inline-start;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+max-width: 200px;
+padding-right: 1.5em;
+padding-top: 18px;
+float: inline-start;
 }
+
+.accordion-content {
+background-color: #050609;
+padding: 1px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-in-out;
+outline-style: double;
+outline-width: thin;
+outline-color:  #ffffff;
+
+}
+
+/* ACC. BUTTON. #1
+button.accordion {
+  width: 100%;
+  background-color:black;
+  border: none;
+  text-align: center;
+  padding: 15px 20px;
+  color: white;
+  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+  outline-style: double;
+  outline-width: thin;
+  outline-color:  #ffffff;
+  font-variant: small-caps;
+  letter-spacing: 7px;
+}
+
+/*button.accordion:after {    
   
+}
+
+button.accordion.is-open:after {
+  
+}
+*//*
+button.accordion:hover{
+  background-color: black;
+  color:white;
+}
+ 
+button.accordion.is-open {
+  background-color: black;
+  color: white;
+  font-variant: small-caps;
+}
+
 .accordion-content {
   background-color: #050609;
   padding: 1px;
@@ -603,117 +697,16 @@ padding-bottom: 15px;
   transition: max-height 0.2s ease-in-out;
   outline-style: double;
   outline-width: thin;
-  outline-color:  #ffffff;
-
+  outline-color:  #ffffff; 
 }
 
-/* ACC. BUTTON. #1
-button.accordion {
-    width: 100%;
-    background-color:black;
-    border: none;
-    text-align: center;
-    padding: 15px 20px;
-    color: white;
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
-    outline-style: double;
-    outline-width: thin;
-    outline-color:  #ffffff;
-    font-variant: small-caps;
-    letter-spacing: 7px;
-  }
-  
-  /*button.accordion:after {    
-    
-  }
-  
-  button.accordion.is-open:after {
-    
-  }
-  *//*
-  button.accordion:hover{
-    background-color: black;
-    color:white;
-  }
-   
-  button.accordion.is-open {
-    background-color: black;
-    color: white;
-    font-variant: small-caps;
-  }
-  
-  .accordion-content {
-    background-color: #050609;
-    padding: 1px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
-    outline-style: double;
-    outline-width: thin;
-    outline-color:  #ffffff; 
-  }
+*/
 
-  */
+/* ACC YELLOW */
 
-  /* ACC YELLOW */
-  
-  .accordionyellow {
-    width: 100%;
-    background-color:   #050609;
-    border: none;
-    text-align: center;
-    padding: 15px 20px;
-    color:  white;
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
-    outline-style: double;
-    outline-width: thin;
-    outline-color:  #ffffff;
-    font-variant: small-caps;
-    letter-spacing: 7px;
-  }
-  
-  .accordionyellow:hover{
-    background-color:yellow;
-    color:black;
-  }
-   
-  .accordionyellow.is-open {
-    background-color:yellow;
-    color:black;
-    font-variant: small-caps;
-  }
-
-  /*ACC.AQUA*/
-  .accordionaqua {
-    width: 100%;
-    background-color:   #050609;
-    border: none;
-    text-align: center;
-    padding: 15px 20px;
-    color:  white;
-    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
-    outline-style: double;
-    outline-width: thin;
-    outline-color:  #ffffff;
-    font-variant: small-caps;
-    letter-spacing: 7px;
-  }
-  
-  .accordionaqua:hover{
-    background-color: aqua;
-    color:black;
-  }
-   
- .accordionaqua.is-open {
-    background-color:aqua;
-    color:black;
-    font-variant: small-caps;
-  }
- 
-/*ACC.BUTTON LIME*/
-.accordionlime {
+.accordionyellow {
   width: 100%;
-  background-color: #050609;
+  background-color:   #050609;
   border: none;
   text-align: center;
   padding: 15px 20px;
@@ -726,21 +719,21 @@ button.accordion {
   letter-spacing: 7px;
 }
 
-.accordionlime:hover{
-  background-color:lime;
-  color: black;
+.accordionyellow:hover{
+  background-color:yellow;
+  color:black;
 }
  
-.accordionlime.is-open {
-  background-color:lime;
+.accordionyellow.is-open {
+  background-color:yellow;
   color:black;
   font-variant: small-caps;
 }
 
-/*ACC.BUTTON MAGENTA*/
-.accordionmagenta {
+/*ACC.AQUA*/
+.accordionaqua {
   width: 100%;
-  background-color: #050609;
+  background-color:   #050609;
   border: none;
   text-align: center;
   padding: 15px 20px;
@@ -753,102 +746,173 @@ button.accordion {
   letter-spacing: 7px;
 }
 
-.accordionmagenta:hover{
-  background-color:magenta;
-  color: #ffffff;
+.accordionaqua:hover{
+  background-color: aqua;
+  color:black;
 }
  
-.accordionmagenta.is-open {
-  background-color:magenta;
-  color: #ffffff;
+.accordionaqua.is-open {
+  background-color:aqua;
+  color:black;
   font-variant: small-caps;
+}
+
+/*ACC.BUTTON LIME*/
+.accordionlime {
+width: 100%;
+background-color: #050609;
+border: none;
+text-align: center;
+padding: 15px 20px;
+color:  white;
+cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+outline-style: double;
+outline-width: thin;
+outline-color:  #ffffff;
+font-variant: small-caps;
+letter-spacing: 7px;
+}
+
+.accordionlime:hover{
+background-color:lime;
+color: black;
+}
+
+.accordionlime.is-open {
+background-color:lime;
+color:black;
+font-variant: small-caps;
+}
+
+/*ACC.BUTTON MAGENTA*/
+.accordionmagenta {
+width: 100%;
+background-color: #050609;
+border: none;
+text-align: center;
+padding: 15px 20px;
+color:  white;
+cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+outline-style: double;
+outline-width: thin;
+outline-color:  #ffffff;
+font-variant: small-caps;
+letter-spacing: 7px;
+}
+
+.accordionmagenta:hover{
+background-color:magenta;
+color: #ffffff;
+}
+
+.accordionmagenta.is-open {
+background-color:magenta;
+color: #ffffff;
+font-variant: small-caps;
 }
 
 /*ACC.BUTTON RED*/
 .accordionred {
-  width: 100%;
-  background-color:  #050609;
-  border: none;
-  text-align: center;
-  padding: 15px 20px;
-  color:  	white;
-  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
-  outline-style: double;
-  outline-width: thin;
-  outline-color:  #ffffff;
-  font-variant: small-caps;
-  letter-spacing: 7px;
+width: 100%;
+background-color:  #050609;
+border: none;
+text-align: center;
+padding: 15px 20px;
+color:  	white;
+cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+outline-style: double;
+outline-width: thin;
+outline-color:  #ffffff;
+font-variant: small-caps;
+letter-spacing: 7px;
 }
 
 .accordionred:hover{
-  background-color: red;
-  color: #ffffff;
+background-color: red;
+color: #ffffff;
 }
- 
+
 .accordionred.is-open {
-  background-color: red;
-  color: #ffffff;
-  font-variant: small-caps;
+background-color: red;
+color: #ffffff;
+font-variant: small-caps;
 }
 
 /*ACC.BUTTONBLUE*/
 .accordionblue {
-  width: 100%;
-  background-color: #050609;
-  border: none;
-  text-align: center;
-  padding: 15px 20px;
-  color:  white;
-  cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
-  outline-style: double;
-  outline-width: thin;
-  outline-color:  #ffffff;
-  font-variant: small-caps;
-  letter-spacing: 7px;
+width: 100%;
+background-color: #050609;
+border: none;
+text-align: center;
+padding: 15px 20px;
+color:  white;
+cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
+outline-style: double;
+outline-width: thin;
+outline-color:  #ffffff;
+font-variant: small-caps;
+letter-spacing: 7px;
 }
 
 .accordionblue:hover{
-  background-color:blue;
-  color: #ffffff;
+background-color:blue;
+color: #ffffff;
 }
- 
+
 .accordionblue.is-open {
-  background-color: blue;
-  color: #ffffff;
-  font-variant: small-caps;
+background-color: blue;
+color: #ffffff;
+font-variant: small-caps;
 }
-  
+
 /*FLEXBOX*/
 @import "compass/css3";
 
 .flex-container {
-  padding: 1.8em;
-  margin: 0;
-  background-color: #050609;
-  list-style: none;
- 
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: left;
-  outline-style: double;
-  outline-color: #231F20; 
+padding: 1.8em;
+margin: 0;
+background-color: #050609;
+list-style: none;
+
+
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+
+-webkit-flex-flow: row wrap;
+justify-content: left;
+outline-style: double;
+outline-color: #231F20; 
 
 }
 
 .flex-container-space-evenly {
-  justify-content: space-evenly;
-  padding: 1.8em;
-  margin: 0;
-  background-color: #050609;
+justify-content: space-evenly;
+padding: 1.8em;
+margin: 0;
+background-color: #050609;
+list-style: none;
+
+
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+
+-webkit-flex-flow: row wrap;
+outline-style: double;
+outline-color: #231F20;  
+}
+
+}
+.flex-container-header {
+  padding: 1em;
+  margin: 0.5em;
+  background-color: yellow;
   list-style: none;
- 
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -856,97 +920,80 @@ button.accordion {
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  outline-style: double;
-  outline-color: #231F20;  
-}
+  justify-content: space-evenly;
 
- }
-.flex-container-header {
-    padding: 1em;
-    margin: 0.5em;
-    background-color: yellow;
-    list-style: none;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    
-    -webkit-flex-flow: row wrap;
-    justify-content: space-evenly;
-
-    outline-style: double;
-    outline-color: #231F20;
-
-    min-width: 100%;
-  
-  }
-
-.flex-item {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  width: auto;
-  height: auto;
-  text-align: center;
   outline-style: double;
   outline-color: #231F20;
+
+  min-width: 100%;
+
+}
+
+.flex-item {
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+width: auto;
+height: auto;
+text-align: center;
+outline-style: double;
+outline-color: #231F20;
 }
 
 .flex-item a{
-    text-decoration: none;    
-    color: #ffffff;
-    background:none;
+  text-decoration: none;    
+  color: #ffffff;
+  background:none;
 }
 
 .flex-item a:active {
-    color: fuchsia;
-    text-decoration: none;
-    background:none;
+  color: fuchsia;
+  text-decoration: none;
+  background:none;
 }
 
 .flex-item a:visited{
-  
-    color:fuchsia;
-    text-decoration: none; 
-    background:none;
+
+  color:fuchsia;
+  text-decoration: none; 
+  background:none;
 }
 
 .flex-item a:hover{
-    color:fuchsia;
-    font-variant: small-caps;
-    text-decoration: none;
-    letter-spacing: 5px;  
-    background:none;
-    font-weight: bolder;
+  color:fuchsia;
+  font-variant: small-caps;
+  text-decoration: none;
+  letter-spacing: 5px;  
+  background:none;
+  font-weight: bolder;
 }
 
 .flex-container-footer {
-    padding: 1em;
-    margin: 0.5em;
-    background-color: #050609;
-    list-style: none;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    
-    -webkit-flex-flow: row wrap;
-    justify-content: space-evenly;
-    outline-style: double;
-    outline-color: #231F20; 
+  padding: 1em;
+  margin: 0.5em;
+  background-color: #050609;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-evenly;
+  outline-style: double;
+  outline-color: #231F20; 
 }
 /* GALLERY*/
 
 div.gallery {
-  margin-left: 1em;
-  margin-top: 0;
-  padding: 0em;
-  float:  unset;
-  align-items: center;
-  height: auto;
+margin-left: 1em;
+margin-top: 0;
+padding: 0em;
+float:  unset;
+align-items: center;
+height: auto;
 
 }
 
@@ -954,20 +1001,20 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  max-width: 260px;
-  height: auto;
-  padding-left: 0em;
-  padding-top: 0em;
-  padding-bottom: 0em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border: black;
-  border-style: solid;
-  background-color: black;
-  border-radius: 0mm;
+max-width: 260px;
+height: auto;
+padding-left: 0em;
+padding-top: 0em;
+padding-bottom: 0em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+border: black;
+border-style: solid;
+background-color: black;
+border-radius: 0mm;
 }
 
 div.desc {
-  padding: 0px;
-  text-align: left;
+padding: 0px;
+text-align: left;
 }
