@@ -18,31 +18,31 @@ body{
 }
 /*SCROLLBAR*/
 
-/* width */
+/* width 
 ::-webkit-scrollbar {
 width: 10px;
-}
+}*/
 
-/* Track */
+/* Track 
 ::-webkit-scrollbar-track {
 background: #050609;
-}
+}*/
 
-/* Handle */
+/* Handle 
 ::-webkit-scrollbar-thumb {
 background: #050609;
-}
+}*/
 
-/* Handle on hover */
+/* Handle on hover
 ::-webkit-scrollbar-thumb:hover {
 background: #231F20;
-}
+} */
 
-/*BASICS*/
+/*BASICS
 p {   
 position: relative;
 width: 100%;
-}
+}*/
 
 br { 
 position: relative;
@@ -98,6 +98,16 @@ h1{
   width: 100%;
 }
 
+h1.aside {
+  color:yellow;  
+  font-size: 22px;
+  text-align: center; 
+  font-variant: small-caps;
+  font-family: "Courier New", "Lucida Console", monospace;
+  letter-spacing: 5px;
+  width: 100%;
+}
+
 h1.titles {
 font-size: 26px;
 text-align: center;
@@ -108,14 +118,17 @@ background-color: yellow;
 color: red;
 border: dotted yellow 3px;
 border-bottom: red solid 3px;
+width: 100%;
 }
 
 h1.white {
 background-color: white;
+border-top: white solid 3px;
 color: red;
-
+width: 100%;
 border: dotted yellow 3px;
 border-bottom: lime solid 3px;
+
 }
 
 h1.magenta {
@@ -124,19 +137,36 @@ color: white;
 
 border-top: solid  magenta 3px;
 border-bottom: aqua solid 5px;
+width: 100%;
 }
 
 h1.lime {
-background-color: blue;
+background-color: lime;
 color: magenta;
-border: white outset 3px;
 border-bottom:aqua solid 5px;
+width: 100%;
 }
 
 h1.red {
 background-color: red;
 color: white;
 border-bottom:magenta solid 5px;
+border-top: red solid 3px;
+width: 100%;
+}
+
+h1.aqua{
+background-color:aqua;
+color:blue;
+border-bottom:magenta solid 5px;
+width: 100%;
+}
+
+h1.border.mablue{
+border-top: solid blue 3px;
+border-bottom: solid magenta 3px;
+background:none;
+margin-bottom: 2px;
 }
 
 h2{
@@ -161,35 +191,63 @@ font-variant: small-caps;
 }
 
 h2.yellow {
+  
+font-size: 20px;
+font-weight: bolder;
+background-color: none;
+width: auto;
 color:yellow;  
 font-variant: small-caps;
+
+
+t
 }
 
 h2.aqua {
+font-size: 20px;
+font-weight: bolder;
+background-color: none;
+width: auto;
 color:aqua;  
 font-variant: small-caps;
 
 }
 
 h2.lime {
+font-size: 20px;
+font-weight: bolder;
+background-color: none;
+width: auto;
 color:lime;  
 font-variant: small-caps;
 
 }
 
 h2.magenta {
+font-size: 20px;
+font-weight: bolder;
+background-color: none;
+width: auto;
 color:magenta;
 font-variant: small-caps;
 
 }
 
 h2.red {
+font-size: 20px;
+font-weight: bolder;
+background-color: none;
+width: auto;
 color:red;  
 font-variant: small-caps;
 
 }
 
 h2.blue {
+font-size: 20px;
+font-weight: bolder;
+background-color: none;
+width: auto;
 color:white;  
 font-variant: small-caps;
 
@@ -622,8 +680,10 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
-padding-bottom: 15px;
+border: solid white 1px;
+margin-bottom: 10px;
 }
+
 
 .container {
 width: 80%;
@@ -885,8 +945,29 @@ display: flex;
 justify-content: left;
 outline-style: double;
 outline-color: #231F20; 
+}
+p.whitetext{
+background-color:white;
+color: black;
+padding: 3px;
+padding-top: 4px;
+padding-bottom: 3px;
+text-align: center;
+outline: aqua double 4px;
+}
+a.emoticons{ 
+  background: white;
 
 }
+a.emoticons:hover{
+ background-color:none;
+ border:none;
+ -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: contrast(200%) saturate(180%);
+}
+
+
 
 .flex-container-space-evenly {
 justify-content: space-evenly;
@@ -967,6 +1048,10 @@ outline-color: #231F20;
   letter-spacing: 5px;  
   background:none;
   font-weight: bolder;
+}
+
+.whiteoutline {
+outline: double white 2px;
 }
 
 .flex-container-footer {
