@@ -149,7 +149,7 @@ width: 100%;
 
 h1.red {
 background-color: red;
-color: white;
+color: yellow;
 border-bottom:magenta solid 5px;
 border-top: red solid 3px;
 width: 100%;
@@ -200,6 +200,8 @@ color:yellow;
 font-variant: small-caps;
 
 
+width: 100%;
+
 t
 }
 
@@ -211,6 +213,9 @@ width: auto;
 color:aqua;  
 font-variant: small-caps;
 
+
+width: 100%;
+
 }
 
 h2.lime {
@@ -220,6 +225,9 @@ background-color: none;
 width: auto;
 color:lime;  
 font-variant: small-caps;
+
+
+width: 100%;
 
 }
 
@@ -231,6 +239,8 @@ width: auto;
 color:magenta;
 font-variant: small-caps;
 
+width: 100%;
+
 }
 
 h2.red {
@@ -241,6 +251,9 @@ width: auto;
 color:red;  
 font-variant: small-caps;
 
+
+width: 100%;
+
 }
 
 h2.blue {
@@ -250,6 +263,9 @@ background-color: none;
 width: auto;
 color:white;  
 font-variant: small-caps;
+
+
+width: 100%;
 
 }
 
