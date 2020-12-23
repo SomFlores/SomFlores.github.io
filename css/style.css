@@ -272,8 +272,8 @@ width: 100%;
 h3 {
 color:aqua;
 padding: 0%;  
-padding-top: 1em;
-padding-bottom: 1em;
+padding-top: 3px;
+padding-bottom: 3px;
 font-variant: small-caps;
 text-decoration: none;
 font-family: "Times New Roman", Times, serif;
@@ -282,8 +282,9 @@ position: relative;
 letter-spacing: 2px;
 line-height: 1.4em;
 width: 100%;
-
+height: auto; 
 text-align: center;
+margin-bottom: 8px;
 
 } 
 /*text-shadow: -1px -5px 3px fuchsia,-1px 1px 3px #a7a705,
@@ -293,8 +294,8 @@ text-align: center;
 h3 a{
 color:aqua;
 padding: 0%;  
-padding-top: 1em;
-padding-bottom: 1em;
+padding-top: 3px;
+padding-bottom: 3px;
 font-variant: small-caps;
 text-decoration: none;
 font-family: "Times New Roman", Times, serif;
@@ -303,6 +304,7 @@ position: relative;
 letter-spacing: 2px;
 line-height: 1.4em;
 width: 100%;
+height: auto; 
 text-align: center;
 
 }
@@ -310,8 +312,8 @@ text-align: center;
 h3 a:hover{
 color: fuchsia;
 padding: 0%;  
-padding-top: 1em;
-padding-bottom: 1em;
+padding-top: 3px;
+padding-bottom: 3px;
 font-variant: small-caps;
 font-family: "Times New Roman", Times, serif;
 text-decoration: none;
@@ -319,38 +321,60 @@ font-size: 1.2em;
 position: relative;
 letter-spacing: 2px;
 line-height: 1.4em;
-width: 100%;  
+width: 100%; 
 
+height: auto; 
 text-align: center;
 
 }
 
+
+
 h3.yellow {
 color:yellow;
+outline-style: dotted;
+outline-color: blue;
+outline-width: 1px;
+
 }
 
 h3.aqua {
 color:aqua;
+outline-style: dotted;
+outline-color: red;
+outline-width: 1px;
 
 }
 
 h3.lime {
 color:lime;
+outline-style: dotted;
+outline-color: magenta;
+outline-width: 1px;
 
 }
 
 h3.magenta {
 color:magenta;
+outline-style: dotted;
+outline-color:lime;
+outline-width: 1px;
 
 }
 
 h3.red {
 color:red;
+outline-style: dotted;
+outline-color: aqua;
+outline-width: 1px;
 
 }
 
 h3.blue {
 color:blue;
+outline-style: dotted;
+outline-color: yellow;
+outline-width: 1px;
 
 }
 
