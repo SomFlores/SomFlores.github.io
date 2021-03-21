@@ -5,7 +5,7 @@
   
 }
 body{    
-  background: dimgray;
+  background: #050906;
   background-attachment: fixed;
   color: #ffffff;
   font-family: "courier new", "Ebrima", "Yu Gothic", "trebuchet ms", "Microsoft Tai Le", "Nirmala UI", "Segoe UI Symbol",  "Corbel", "Gadugi", monospace, serif;
@@ -163,7 +163,7 @@ width: 100%;
 }
 
 h1.border.mablue{
-border-top: solid blue 3px;
+border-top: solid blue 1px;
 border-bottom: solid magenta 3px;
 background:none;
 margin-bottom: 2px;
@@ -509,8 +509,16 @@ flex: 1 100%;
 .header {
 background: #050906;
 min-height: 50px;
-outline-style: double;
-outline-color: #231F20; 
+border-style: solid;
+border-width: 2px;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-right-width: 2px;
+border-left-width: 2px;
+border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;;
+/*outline-width: 2px;
+outline-style: solid;
+outline-color: yellow; /*here*/
 font-size: 24px;
 font-weight:normal; 
 font-variant: small-caps;
@@ -521,8 +529,16 @@ letter-spacing: 7px;
 .footer {
 background: #050609;
 min-height: 50px;
-outline-style: double;
-outline-color: #231F20; 
+border-style: solid;
+border-width: 2px;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-right-width: 2px;
+border-left-width: 2px;
+border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;;
+/*outline-width: 2px;
+outline-style: solid;
+outline-color: lime;/*here*/ 
 
 }
 
@@ -530,8 +546,16 @@ outline-color: #231F20;
 text-align: left;
 background-color: #050609;
 padding: 1em;
-outline-style: double;
-outline-color: #231F20; 
+border-style: solid;
+border-width: 2px;
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-right-width: 1px;
+border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;;
+/*border-color: magenta;
+/*outline-width: top 0px;
+outline-style: solid;
+outline-color: magenta; /*here*/
 font-family:  "courier new", "Ebrima", "Yu Gothic", "trebuchet ms", "Microsoft Tai Le", "Nirmala UI", "Segoe UI Symbol",  "Corbel", "Gadugi", monospace, serif;
 font-size: 16px;
 font-weight:normal; 
@@ -542,8 +566,15 @@ line-height: 1.8em;
 text-align: left;
 background-color: #050609;
 padding: 1em;  
-outline-style: double;
-outline-color: #231F20;
+border-style: solid;
+border-width: 2px;
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-right-width: 1px;
+border-left-width: 2px;
+border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;;
+/*outline-style: double;
+outline-color: blue; /*here*/
 
 
 }
@@ -748,9 +779,9 @@ padding: 1px;
 max-height: 0;
 overflow: hidden;
 transition: max-height 0.2s ease-in-out;
-outline-style: double;
+outline-style: solid;
 outline-width: thin;
-outline-color:  #ffffff;
+outline-color:  white; /*here*/
 
 }
 
@@ -814,7 +845,7 @@ button.accordion.is-open {
   cursor: url("http://downloads.totallyfreecursors.com/thumbnails/cat14.gif"), pointer;   
   outline-style: double;
   outline-width: thin;
-  outline-color:  #ffffff;
+  outline-color:  #ffffff; 
   font-variant: small-caps;
   letter-spacing: 7px;
 }
@@ -983,8 +1014,9 @@ display: flex;
 
 -webkit-flex-flow: row wrap;
 justify-content: left;
-outline-style: double;
-outline-color: #231F20; 
+outline-style:solid;
+outline-width: 0px; /*here*
+outline-color: white; /*here*/
 }
 p.whitetext{
 background-color:white;
@@ -996,6 +1028,16 @@ text-align: center;
 outline: aqua double 4px;
 width: 100%;
 }
+a.asidelink{
+  color: magenta;
+  background-color:none;
+  text-decoration: underline;
+}
+a.asidelink:hover{
+  color:yellow;
+  background-color:red;
+}
+
 a.emoticons{ 
   background: white;
 
@@ -1059,8 +1101,10 @@ padding-right: 0.5em;
 width: auto;
 height: auto;
 text-align: center;
-outline-style: double;
-outline-color: #231F20;
+border-width: 1px;
+border-style: solid;
+border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+
 }
 
 .flex-item a{
@@ -1092,7 +1136,7 @@ outline-color: #231F20;
 }
 
 .whiteoutline {
-outline: double white 2px;
+outline: solid white 1px;
 }
 
 .flex-container-footer {
@@ -1108,8 +1152,9 @@ outline: double white 2px;
   
   -webkit-flex-flow: row wrap;
   justify-content: space-evenly;
-  outline-style: double;
-  outline-color: #231F20; 
+  border-style: solid;
+  border-width: 1px;
+  border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
 }
 /* GALLERY*/
 
