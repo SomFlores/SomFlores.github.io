@@ -185,10 +185,24 @@ width: 100%;
 }
 
 h2.news {
-background-color:blue;
-color:white;
 font-variant: small-caps;
+text-align: center;
+border-width: 1px;
+border-style: solid;
+background-color: blue;
+border-color: white;
+color: white;
 }
+
+p.news{
+background-color: white;
+color: black;
+padding: 25px 50px 25px 50px;
+border-width: 2px;
+border-style: solid;
+border-color: blue; 
+}
+
 
 h2.yellow {
   
@@ -202,7 +216,6 @@ font-variant: small-caps;
 
 width: 100%;
 
-t
 }
 
 h2.aqua {
@@ -422,28 +435,39 @@ size: 100%;
 }
 
 hr.red {
-border: 2px dotted red;
-outline: 
+border: 1px solid red;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 hr.yellow {
-border: 2px dotted yellow;
+border: 1px solid yellow;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 hr.aqua {
-border: 2px dotted aqua;
+border: 1px solid aqua;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 hr.lime {
-border: 2px dotted lime;
+border: 1px solid lime;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 hr.magenta {
-border: 2px dotted magenta;
+border: 1px solid magenta;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 hr.blue {
-border: 2px dotted blue
+border: 1px solid blue;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 .centered-text {
@@ -1137,6 +1161,15 @@ border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
 
 .whiteoutline {
 outline: solid white 1px;
+}
+
+img.news {
+  max-width: 100px;
+  max-height: 100px;
+  break-after: always;
+  break-before: always;
+
+
 }
 
 .flex-container-footer {
